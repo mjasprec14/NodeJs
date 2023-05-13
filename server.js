@@ -9,6 +9,14 @@ class Emitter extends EventEmitter {}
 
 const myEmitter = new Emitter();
 
+const PORT = process.env.PORT || 3500;
+
+const server = http.createServer((req, res) => {
+  console.log(req.url, req.method);
+});
+
+server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+
 // myEmitter.on('log', (msg) => logEvents(msg));
 
 // setTimeout(() => {
