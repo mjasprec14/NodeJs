@@ -81,3 +81,8 @@
 	2023-05-15	19:46:56	e925aad7-6620-4807-9f8e-68936c9c896d	GET	undefined	/css/style.css
 	2023-05-15	19:47:40	7e5f920d-394a-402a-afc2-b5ba85f0815d	OPTIONS	https://www.google.com	/
 	2023-05-15	19:47:40	61457f40-8bf3-4d1d-8cd9-4c3a6af16567	GET	https://www.google.com	/
+	2023-05-15	19:53:25	8991b636-ef3e-4698-815b-10e0c5ab779d	GET	undefined	/
+	2023-05-15	19:53:43	3818a007-5b6d-4900-93c8-e1970e966de8	GET	undefined	/
+	2023-05-15	19:53:43	a8ec37ae-d2e7-4422-98c5-468fc2601521	GET	undefined	/css/style.css
+	2023-05-15	19:56:32	b93049cf-4d85-4799-8589-244a7e9eca68	GET	undefined	/mj
+	2023-05-15	19:56:33	ca5a0824-51b1-479a-b0ba-65b9851cad37	GET	undefined	/css/style.css
