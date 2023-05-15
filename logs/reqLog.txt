@@ -1,1 +1,7 @@
-	2023-05-14	21:15:01	623a6476-8a69-46ab-a770-1f77c0caaa67	/new-page.html	GET	2023-05-14	21:15:01	a8d68b34-d6b6-40eb-990e-e7c7815d0a0f	/css/style.css	GET	2023-05-14	21:15:01	8dd94724-db65-439c-8cfd-2e1f60d74df7	/img/img1.jpg	GET	2023-05-14	21:17:35	f9f69dc8-e72d-44f5-a4ab-72a60547e7e8	/new-page.html	GET	2023-05-14	21:18:38	a85dff6c-05ea-43c6-834f-246ece4a81eb	/new-page.html	GET	2023-05-14	21:18:38	d92eaa62-1b35-40a1-8512-424378dc8b79	/img/img1.jpg	GET	2023-05-14	21:18:38	36cc11bf-ab04-4bd1-84be-4c76a9106d1e	/css/style.css	GET
+	2023-05-15	18:43:28	8dfafb2a-e797-44b0-be70-7d13bcc4309a	GET	undefined	/
+	2023-05-15	18:43:28	0212d85d-f4ab-43cd-90e4-52d3a44fb56a	GET	undefined	/css/style.css
+	2023-05-15	18:43:40	312285b9-0759-4a56-95c7-9cabb8d4e6a3	GET	undefined	/new-page.html
+	2023-05-15	18:43:40	dcf107a0-6581-4b20-b28b-b93a600fe5f5	GET	undefined	/css/style.css
+	2023-05-15	18:43:40	847cfa9a-5e37-405b-8b96-19214c0b9fbe	GET	undefined	/img/img1.jpg
+	2023-05-15	18:47:18	14b66ee6-446b-4128-8761-e0bfc5584e75	GET	undefined	/
+	2023-05-15	18:47:19	e06d54cd-5bbb-4a40-9841-317c705bd6c4	GET	undefined	/css/style.css
