@@ -3,6 +3,7 @@ const cors = require('cors');
 const path = require('path');
 // const logEvents = require('./middleware/logEvents');
 const { logger } = require('./middleware/logEvents');
+const errorHandler = require('./middleware/errorHandler');
 const PORT = process.env.PORT || 3500;
 
 const app = express();
@@ -16,14 +17,12 @@ const whitelist = [
   'https://www.google.com/',
   'http://localhost:3500/',
   'http://localhost:3500',
-  'localhost:3500/',
-  'localhost:3500',
   'http://127.0.0.1:5500',
 ];
 
 var corsOptions = {
   origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1) {
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
@@ -32,7 +31,7 @@ var corsOptions = {
   optionsSuccessStatus: 200,
 };
 
-app.use(cors());
+app.use(cors(corsOptions));
 
 // for form data
 app.use(express.urlencoded({ extended: false }));
@@ -85,5 +84,7 @@ app.get('/chain(.html)?', [one, two, three]);
 app.get('/*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
+
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server is running on Port:${PORT}`));
