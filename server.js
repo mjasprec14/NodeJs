@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const path = require('path');
 // const logEvents = require('./middleware/logEvents');
 const { logger } = require('./middleware/logEvents');
@@ -8,6 +9,30 @@ const app = express();
 
 // custom middleware logger
 app.use(logger);
+
+// cross origin resources sharing
+const whitelist = [
+  'https://www.google.com',
+  'https://www.google.com/',
+  'http://localhost:3500/',
+  'http://localhost:3500',
+  'localhost:3500/',
+  'localhost:3500',
+  'http://127.0.0.1:5500',
+];
+
+var corsOptions = {
+  origin: (origin, callback) => {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors());
 
 // for form data
 app.use(express.urlencoded({ extended: false }));
