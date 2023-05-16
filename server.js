@@ -46,32 +46,6 @@ app.use('/subdir', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
 
-app.get(
-  '/hello(.html)?',
-  (req, res, next) => {
-    console.log('attempted to load hello.html');
-    next();
-  },
-  (req, res) => res.send('Hello World')
-);
-
-const one = (req, res, next) => {
-  console.log('one');
-  next();
-};
-
-const two = (req, res, next) => {
-  console.log('two');
-  next();
-};
-
-const three = (req, res, next) => {
-  console.log('three');
-  res.send('Finished!');
-};
-
-app.get('/chain(.html)?', [one, two, three]);
-
 app.all('*', (req, res) => {
   res.status(404);
   if (req.accepts('html')) {
