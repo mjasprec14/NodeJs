@@ -112,3 +112,23 @@
 	2023-05-16	20:56:15	2da20df4-435e-4970-8a96-153d54b13efc	GET	undefined	/subdir/test
 	2023-05-16	20:56:18	9818871f-17f7-4471-8900-6a98dd99638a	GET	undefined	/subdir/mj
 	2023-05-16	20:56:18	3acd2bb4-ea22-479a-8572-d62db4709d14	GET	undefined	/subdir/css/style.css
+	2023-05-16	21:03:04	fca4fd2c-29eb-4caa-bb15-9c476369158c	GET	undefined	/
+	2023-05-16	21:03:04	1de58a66-ee05-47d5-b5fa-2e01e137aa64	GET	undefined	/css/style.css
+	2023-05-16	21:03:09	53d2204a-57c4-4e43-b3aa-8e4d9d01cea9	GET	undefined	/new-page.html
+	2023-05-16	21:03:09	4d1ad58d-f079-42f5-b631-38329a1b8ca6	GET	undefined	/css/style.css
+	2023-05-16	21:03:09	c6ed55bd-ead6-4633-a0cd-0f183795e6f6	GET	undefined	/img/img1.jpg
+	2023-05-16	21:03:19	4719b689-3fec-4449-baea-6711916bfde1	GET	undefined	/subdir/
+	2023-05-16	21:03:23	7da3f9d0-82f9-4f33-8026-0ecd796ec04d	GET	undefined	/subdir/test
+	2023-05-16	21:17:44	6f6209a4-901b-43d4-82e7-2d2d0493069b	GET	undefined	/employees
+	2023-05-16	21:21:48	6e6306cd-a81a-424b-9a52-e6a86805c181	POST	undefined	/employees
+	2023-05-16	21:22:23	169ead7f-9f86-4fd3-bd67-a515c1eb084a	POST	undefined	/employees
+	2023-05-16	21:23:31	0771aa51-2af5-41af-b6b1-5690d4c3dfba	PUT	undefined	/employees
+	2023-05-16	21:23:54	ca74423b-b525-44e0-bf8f-7ee3e0351dd5	DELETE	undefined	/employees
+	2023-05-16	21:24:59	079080a9-ca6a-4c91-8fdb-4e4e0182c07e	DELETE	undefined	/employees/1
+	2023-05-16	21:25:12	802e4280-0518-4413-8dc8-f4ba026a373d	GET	undefined	/employees/1
+	2023-05-19	21:20:01	84549aa1-a346-495f-a8f4-b3ae73e137d6	GET	undefined	/employees
+	2023-05-19	21:20:55	9a3e498e-a5db-4216-a8a6-aa70b53c2211	POST	undefined	/employees
+	2023-05-19	21:21:35	c574e54c-1e53-4f6d-b568-2a24de6a35e5	DELETE	undefined	/employees
+	2023-05-19	21:33:17	e8bef804-3c75-4a5c-a8b4-c049153df3bc	PUT	undefined	/employees
+	2023-05-19	21:33:44	07331ef6-0623-4ae4-9c56-adb57767932e	DELETE	undefined	/employees
+	2023-05-19	21:34:18	dd007cb0-e850-41e3-adc6-1635f19e71bc	GET	undefined	/employees/1
